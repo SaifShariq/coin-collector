@@ -167,7 +167,7 @@ window.onload = function () {
 
     // when the player loses the game
     if (lifeLeft === 0) {
-      losingMessage.text = "YOU LOST YOUR LAST LIFE...";
+      losingMessage.text = "YOU LOSE!!!";
       player.kill();
     }
   }
